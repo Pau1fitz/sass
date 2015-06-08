@@ -1,0 +1,18 @@
+$primaryColor: #eeccff;
+$fontDiff: (14px/16px);
+$firstValue: 62.5%;
+$firstValue: 24px !default;
+
+body {
+  $primaryColor: #ccc !global;
+  background: $primaryColor;
+}
+
+p {
+  color: $primaryColor;
+}
+
+body {
+    font-size: $firstValue;
+}
+
